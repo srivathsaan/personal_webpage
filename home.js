@@ -14,7 +14,7 @@ image.onclick = function () {
     }
 };*/
 
-let w = window.innerWidth;
+/*let w = window.innerWidth;
 let h = window.innerHeight;
 let animated = false;
 
@@ -332,6 +332,6 @@ constellationDraw.forEach((path, i) => {
   constellationDrawTl.add(tl, i);
 })
 
-
+*/
 
 
