@@ -1,18 +1,25 @@
-/*var image = document.querySelector("#container");
+const imageElem = document.getElementById("pic");
 
-image.onclick = function () {
-    'use strict';
-    var img = image.getAttribute('src');
-    if (img === 'IMG.jpg') {
-        image.setAttribute('src', 'IMG1.jpg');
-    }
-    else if (img === 'IMG1.jpg') {
-            image.setAttribute('src', 'IMG2.jpg');
-    }
-    else if (img === 'IMG2.jpg') {
-            image.setAttribute('src', 'IMG.jpg');
-    }
-};*/
+let image_counter = 0;
+imageElem.addEventListener('click', function(event) {
+    image_counter = (image_counter + 1) % 3;
+    
+    imageElem.src = "/IMG" + image_counter + ".jpg"
+})
+
+//image.onclick = function () {
+//    'use strict';
+//    var img = image.getAttribute('src');
+//    if (img === 'IMG.jpg') {
+//        image.setAttribute('src', 'IMG1.jpg');
+//    }
+//    else if (img === 'IMG1.jpg') {
+//            image.setAttribute('src', 'IMG2.jpg');
+//    }
+//    else if (img === 'IMG2.jpg') {
+//            image.setAttribute('src', 'IMG.jpg');
+//    }
+//};
 
 /*let w = window.innerWidth;
 let h = window.innerHeight;
