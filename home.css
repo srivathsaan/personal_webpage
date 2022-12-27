@@ -23,7 +23,7 @@ body{
   position: relative;
   padding: 60px 1px 1px 30px;
     display: inline-flex;
-    align-items: center
+    align-items: center;
 }
 
 .bottomright {
@@ -39,9 +39,9 @@ body{
   font-size: 18px;
     color: aliceblue;
     text-align: justify;
-    padding: 0 10vw 10px;
-    max-width: 500px;
-    font-weight: 600
+    padding: 0vw 10px 10px;
+    max-width: 700px;
+    font-weight: 600;
 }
 
 .connect-box {
